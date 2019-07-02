@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    background: #363636;
+    padding: 10px;
+    z-index: 1;
+}
+.nav-bar .item {
+    flex-direction: row;
+    display: block;
+    margin-right: 30px;
+    color: #ffffff;
+    font-weight: 800;
+}
+.contents {
+    margin-top: 40px;
+    position: absolute;
+    width: 100%;
+}
+.contents p {
+    padding: 20px;
+    text-align: justify;
+}
+.profile {
+    width: 100%;
+}
+.under-construction {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 200px;
+    color: #969696;
+}
