@@ -35,5 +35,8 @@ body {
     font-weight: 800;
     text-align: center;
     margin-top: 200px;
-    color: #969696;
+    color: #463939;
+}
+.under-construction span {
+    color: #ed8409
 }
