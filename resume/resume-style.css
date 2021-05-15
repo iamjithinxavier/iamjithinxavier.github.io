@@ -1,0 +1,143 @@
+body {
+    background-color: #222;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 1100px;
+    margin: 0;
+    padding: 0;
+}
+
+.head-style {}
+
+.container {}
+
+.container .mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.container .mid .left-pane {
+    height: 100vh;
+    background-color: #444;
+    flex-basis: 20%;
+    padding: 0 10px;
+}
+
+.container .mid .left-pane .avatar {
+    margin-top: 100px;
+}
+
+.container .mid .left-pane .avatar img {
+    width: 70%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container .mid .left-pane .profile-name {
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+}
+
+.container .mid .left-pane .designation {
+    margin-top: 5px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container .mid .content-pane {
+    flex-basis: 80%;
+    padding: 0 40px;
+}
+
+.container .mid .content-pane .about {
+    display: flex;
+}
+
+.container .mid .content-pane .about .about-me {
+    flex-basis: 70%;
+    padding: 10px;
+}
+
+.container .mid .content-pane .about .details {
+    flex-basis: 30%;
+    padding: 10px;
+}
+
+.container .mid .content-pane h1 {
+    color: #4e0db6;
+}
+
+.container .mid .content-pane .about .details .details-title {
+    margin-right: 10px;
+    color: #4e0db6;
+}
+
+.container .mid .content-pane .about .details .phone {
+    padding-bottom: 15px;
+}
+
+.container .mid .content-pane .about .details .details-value {}
+
+.container .mid .content-pane .about .details .details-value a {
+    text-decoration: none;
+    color: white;
+}
+
+.employers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.employers .employer {
+    display: flex;
+    border: 3px solid #444;
+    border-radius: 4px;
+    min-width: 500px;
+    margin: 5px;
+}
+
+.employers .employer .logo {
+    flex-basis: 20%;
+    background-color: #444;
+    width: 100%;
+    height: 100%;
+}
+
+.employers .employer .logo img {
+    width: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.employers .employer .detail {
+    flex-basis: 80%;
+    padding: 2px 10px;
+}
+
+.employers .employer .detail .company-name {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.employers .employer .detail .designation {
+    font-size: 12px;
+    color: #444;
+    font-weight: 500;
+}
+
+.employers .employer .detail .tenure {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444;
+}
